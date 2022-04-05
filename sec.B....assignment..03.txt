@@ -1,0 +1,16 @@
+1.
+A class is called an Abstract class if it contains one or more abstract methods.
+ An abstract method is a method that is declared, but contains no implementation.
+ Abstract classes may not be instantiated, and its abstract methods must be implemented by its subclasses.
+2.
+An assignment statement gives a value to a variable. For example, the expression must result in a value that is compatible with the type of the variable .
+In other words, it must be possible to cast the expression to the type of the variable.
+3.
+All methods that are called with super() need to have a call to their superclass's version of that method. 
+This means that you will need to add super(). __init__() to the . __init__() methods of Triangle and Rectangle .
+4.
+To augment an inherited method involves forwarding. 
+Message forwarding allows you to augment an inherited method in such a way that it can perform its inherited action and some new action.
+5.
+Local scope is the area between an { and it's closing }. Function scope is the area between the opening { of a function and its closing },
+ which may contain more "local" scopes.
